@@ -1,0 +1,145 @@
+* {
+    margin: 0 auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+body {
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2457cf;
+    height: 70px;
+    Position: relative; /*check position top menu*/
+}
+header{
+   box-shadow: 0 3px 5px rgb(44, 43, 43);
+}
+h1 {
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    align-items: center;
+}
+header .drop{
+    position: absolute;
+	left: 30px;
+}
+header .drop a.hamburger img {
+    font-size: 40px;
+	padding-top: 5px;
+	transition: .2s ease;
+   }
+
+header .drop a.hamburger:hover img {
+    color: #fff;
+   }
+
+nav.sub-menu {
+	width: 200px;
+	height: 200px;
+	background-color:#2457cf;
+	position: absolute;
+	left: -300px;
+	transition: .3s all;
+    z-index: 10;
+    
+}
+nav.sub-menu > a {
+    display: block;
+    padding: 5px;
+    margin: 15px 0 0px 20px;
+    color: #fff;
+}
+.sub-menu_show {
+	left: 0!important;
+}
+
+.top-logo img{
+    position: absolute;
+    right: 30px;
+    bottom: 5px;
+    Height: 60px;
+    width: 100px;
+}
+main {
+    width: 100%;
+    padding: 30px;
+    box-sizing: border-box;
+}
+  
+h2 {
+    width: 100%;
+    margin: 20px 0 20px 0;
+    text-align: left;
+    text-justify: inter-word;
+}
+
+p {
+    text-align: justify;
+    text-justify: inter-word;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.cover img {
+    width: 100%;
+    height: 80%;
+    align-items: center;
+    text-align: center;
+}
+.cover {
+position: relative;
+align-items: center;
+}
+.exp {
+    position: absolute;
+    width: auto;
+    font-size: 25px;
+    font-weight: bold;
+    bottom: 30px;
+    color: #ffffff;
+    text-size-adjust: 80%;
+    padding: 20px;
+ }
+
+
+footer {
+    position:relative;
+    background-color: #2457cf;
+    padding: 15px 30px 15px 30px;
+    }
+
+    @media only screen and (max-width: 1200px) {
+        main {
+          max-width: none;
+          width: auto;
+        }
+      }
+      
+    @media only screen and  (max-width: 800px) {
+        h1 {
+            font-size: 100%;
+        }
+        h2, p {
+            font-size: 80%;
+        }
+        .exp {
+            font-size: 80%;
+        }
+        .top-logo img{
+            width: auto;
+      }
+    }
+    @media only screen and (max-width: 768px) {
+        [class*="col-"] {
+        width: 100%;
+        }
+      }
