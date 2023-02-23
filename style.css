@@ -139,7 +139,7 @@ table {
 
 #tour-img img{
     width: 100%;
-    height: 300px;
+    height: 250px;
     align-items: center;
 }
 
@@ -227,7 +227,7 @@ footer {
     }
     main {
           max-width: 1200px; /*none;*/
-          width: 100%; /*auto;*/
+          width: 100vw; /*100%auto;*/
         }
     .cover  {
 
@@ -279,7 +279,7 @@ footer {
         }
     #tour-img img{
             width: 100%;
-            height: 100%;
+            height: auto; /*100%;*/
         }
 }
 
