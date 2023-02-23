@@ -5,6 +5,7 @@
 
 body {
     margin: 0 auto;
+     /* width:1400px; new adding*/
 }
 
 header {
@@ -12,7 +13,7 @@ header {
     justify-content: center;
     align-items: center;
     background-color: #2457cf;
-    height: 70px;
+    height: 50px; /*70px;*/
     Position: relative; /*check position top menu*/
 }
 
@@ -22,6 +23,7 @@ header{
 
 h1 {
     width: 100%;
+    font-size: 25px; /*new adding*/
     text-align: center;
     color: #fff;
     align-items: center;
@@ -71,14 +73,17 @@ nav.sub-menu a:hover {
 .top-logo img{
     position: absolute;
     right: 30px;
-    bottom: 5px;
-    Height: 60px;
-    width: 100px;
+    bottom: 0px;
+    height: 50px;/*60px 
+    width: 100px; 
+    update width
+    *su loi cap*/
 }
 
 main {
     width: 100%;
-    padding: 30px;
+    /*width:1200px;*/
+    padding: 10px  100px /*30px*/;
     box-sizing: border-box;
 }
   
@@ -129,7 +134,7 @@ table {
     margin-left:auto;
     margin-right:auto;
     border-spacing: 30px 15px;
-    padding: 0 40px;    
+    padding: 0 100px;    
 }
 
 #tour-img img{
@@ -185,12 +190,10 @@ button{
 }
 
 footer {
-
     position: relative;
     padding: 20px 30px 20px 30px;
     display: flex;
     background:#2457cf;
-    width: 100%;
     align-items: center;
 }
 
@@ -203,7 +206,6 @@ footer {
 .footer-menu {
     position: absolute;
     right: 90px;
-    /* float: right;remove */
     color:  #fff;
     text-decoration: none;
 }
@@ -219,17 +221,30 @@ footer {
 }
 
  @media only screen and (max-width: 1200px) {
+    body{
+         max-width: 1200px; /*none;*/
+          width: 100%; /*auto;*/
+    }
     main {
-          max-width: none;
-          width: auto;
+          max-width: 1200px; /*none;*/
+          width: 100%; /*auto;*/
         }
+    .cover  {
+
+        max-width: 1200px; /*none;*/
+        width: 100%; /*auto;*/
+  }
+    .container {
+            max-width: 1200px; /*none;*/
+            width: 100%; /*auto;*/
+          }
     #tour-img img{
             width: 100%;
             height: 100%;
         }
 }
  @media only screen and  (max-width: 800px) {
-     h1 {
+    h1 {
             font-size: 100%;
         }
     h2,h3, p {
@@ -243,7 +258,7 @@ footer {
         }
     header {
             max-width: none;
-            width: auto;
+            width: 100%;
         }
     footer {
             width: auto;
@@ -252,7 +267,11 @@ footer {
             font-size: 80%;
         }
     table{
-            width: auto;
+            width: 100%;
+            display:block;
+            text-align: left;
+            margin-left:auto;
+            margin-right:auto;
         }
     table tr th td {
             width: auto;
@@ -306,24 +325,3 @@ table tr th td {
 
 
 }
-/*
-@media only screen and (max-width: 677px) {
-    [class*="col-"] {
-        width: 100%;
-        }
-    table{
-            width: auto;
-        }
-    .top-logo img{
-            max-width: 100%;
-        }
-    table{
-            max-width: none;
-            width: auto;
-        }
-    #tour-img img{
-            width: 100%;
-            height: 100%;
-        }
-}
-*/
