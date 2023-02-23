@@ -104,6 +104,11 @@ a {
     text-decoration: none;
     color: #fff;
 }
+/*
+.cover {
+    position: relative;
+    align-items: center;
+}
 
 .cover img {
     width: 100%;
@@ -111,11 +116,17 @@ a {
     align-items: center;
     text-align: center;
 }
-
+*/
 .cover {
     position: relative;
     align-items: center;
 }
+
+.cover img {
+    width:100%;
+    height: 30%;    
+}
+
 
 .exp {
     position: absolute;
@@ -219,21 +230,33 @@ footer {
     color: #000000;
     padding: 10px;
 }
-
+/* assignment request*/
  @media only screen and (max-width: 1200px) {
     body{
-         max-width: 1200px; /*none;*/
+         /*max-width: 1200px; none;
           width: 100%; /*auto;*/
+          width: 100%;
     }
     main {
-          max-width: 1200px; /*none;*/
+          /*max-width: 1200px; /*none;
+          max-width: 1200px;
           width: 100vw; /*100%auto;*/
+          max-width: 1200px;
+          width: 100%;
+          padding: 10px  10px; /*new to check screen*/
         }
     .cover  {
 
-        max-width: 1200px; /*none;*/
+        /*max-width: 1200px; none;*/
         width: 100%; /*auto;*/
-  }
+       /* left:-27px;*/
+                
+    }
+    .cover img { /*new to check screen*/
+            width:96.5vw;
+            height: 30%;  
+                       
+        }
     .container {
             max-width: 1200px; /*none;*/
             width: 100%; /*auto;*/
@@ -260,6 +283,26 @@ footer {
             max-width: none;
             width: 100%;
         }
+        main {
+            /*max-width: 1200px; /*none;
+            max-width: 1200px;
+            width: 100vw; /*100%auto;*/
+            max-width: 1200px;
+            width: 100%;
+            padding: 10px  10px; /*new to check screen*/
+          }
+      .cover  {
+  
+          /*max-width: 1200px; none;*/
+          width: 100%; /*auto;*/
+         /* left:-27px;*/
+                  
+      }
+      .cover img { /*new to check screen*/
+              width:95vw;
+              height: 30%;  
+                         
+          }
     footer {
             width: auto;
         }
