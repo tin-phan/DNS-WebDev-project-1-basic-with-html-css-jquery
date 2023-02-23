@@ -84,7 +84,7 @@ main {
   
 h2 {
     width: 100%;
-    margin: 50px 0 50px 0;
+    margin: 20px 0 20px 0;
     text-align: left;
     text-justify: inter-word;
 }
@@ -219,17 +219,19 @@ footer {
         width: 100%;
         }
     main {
-        width: 100%;
-        padding: 10px  40px;
+            width: 100%;
+            padding: 0;
         }
+    
+    h2 {
+        width: 100%;
+        padding: 10px 10px 10px 40px;
+            }
 
-    .cover {
-        width: 100%;
-        left:-40px;
-        }
-    .cover img { 
-        width:98.5vw;
-        height: 30%;  
+    .p {/* cach xu ly text trong box*/
+        width: 80vw;
+        /*margin:0;*/
+        padding: 10px 80px 10px 80px;
         }
 
     .exp {
@@ -253,6 +255,10 @@ footer {
     .cta {
             font-size: 80%;
              }
+
+    .footer-info{
+        width:90vw;
+    }
 }
 /* assignment request*/
  @media only screen and  (max-width: 800px) {
@@ -279,21 +285,20 @@ footer {
 
     main {
             width: 100%;
-            padding: 10px  30px;
+            padding: 0;
         }
 
     .cover  {
             width: 100%; 
-         left:-30px;
         }
 
     .cover img { 
-        width:97.5vw;
+        width:100;
         height: 30%;  
         }
 
     .exp {
-         padding: 30px;
+         padding: 40px;
         } 
 
     .container {
