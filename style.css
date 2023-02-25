@@ -128,7 +128,7 @@ table {
     margin-left:auto;
     margin-right:auto;
     border-spacing: 30px 15px;
-    padding: 0 100px;    
+    padding: 0 80px; 
 }
 
 #tour-img img{
@@ -139,7 +139,7 @@ table {
 
 tr th {
     text-align: left;
-     padding: 10px 0;
+   /* padding: 10px 0;*/
 }
 
 tr th a {
@@ -153,7 +153,7 @@ tr th a:hover {
 tr td p {
     align-items: center;
     text-align: left;
-    padding: 5px 0;
+    /*padding: 5px 0;*/
     font-size: 14px;
 }
 
@@ -225,13 +225,13 @@ footer {
     
     h2 {
         width: 100%;
-        padding: 10px 10px 10px 40px;
+        padding: 10px 10px 10px 30px;
             }
 
-    .p {/* cach xu ly text trong box*/
-        width: 80vw;
-        /*margin:0;*/
-        padding: 10px 80px 10px 80px;
+    .lead {
+        width: 88vw;
+        margin:0;
+        padding: 10px 20px 10px 30px;
         }
 
     .exp {
@@ -251,7 +251,12 @@ footer {
         }
     tr td p {
             font-size: 80%;
+            width:100%;
+            padding:0;
+            margin:0;
+            /*margin-left:-5px;*/
             }
+    
     .cta {
             font-size: 80%;
              }
@@ -262,13 +267,43 @@ footer {
 }
 /* assignment request*/
  @media only screen and  (max-width: 800px) {
+    main {
+        width: 100%;
+        padding: 0;
+    }
+    header {
+        max-width: none;
+        width: 100%;
+    }
+    
     h1 {
             font-size: 100%;
         }
 
-    h2,h3, p {
+    .container {
+            width: 100%;
+       }
+
+    h2 {
+        width: 100%;
+        /*padding: 10px 10px 10px 30px;*/
+        font-size: 80%;
+            }
+
+    .lead {
+        width: 88vw;
+        margin:0;
+       /*padding: 10px 40px 10px 40px;*/
+        }
+    h3 {
             font-size: 80%;
         }
+    p {
+        font-size: 80%;
+    }
+    /*h2,h3, p {
+            font-size: 80%;
+        }*/
 
     .exp {
             font-size: 80%;
@@ -278,17 +313,7 @@ footer {
             width: auto;
         }
 
-    header {
-            max-width: none;
-            width: 100%;
-        }
-
-    main {
-            width: 100%;
-            padding: 0;
-        }
-
-    .cover  {
+        .cover  {
             width: 100%; 
         }
 
@@ -301,9 +326,7 @@ footer {
          padding: 40px;
         } 
 
-    .container {
-             width: 100%;
-        }
+
     table {
         margin-left:auto;
         margin-right:auto;
@@ -315,7 +338,7 @@ footer {
         }
 
     tr td p {
-        padding: 5px;
+        /*padding: 5px;*/
         font-size: 10px;
         }
 
