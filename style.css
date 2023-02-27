@@ -214,25 +214,31 @@ footer {
     margin-left: 30px;
     margin-right: 0;
 }
+
 .footer-menu a:hover {
     background-color: #bcb9b9;;
     color: #000000;
     padding: 10px;
 }
+
 /* assignment request*/
  @media only screen and (max-width: 1200px) {
     body{
         width: 100%;
         }
+
     main {
-            width: 100%;
-            padding: 0;
+        width: 100%;
+        padding: 0;
         }
     
     h2 {
-        width: 100%;
-        padding: 10px 10px 10px 30px;
-            }
+    /* width: 100%;
+       padding: 10px 10px 10px 30px; fix media querie */
+       width: 87vw;
+       padding: 10px -40px 10px 30px;
+       text-indent: 30px;       
+        }
 
     .lead {
         width: 88vw;
@@ -241,7 +247,8 @@ footer {
         }
 
     .exp {
-        padding: 40px;
+        /*padding: 40px; fix media querie */
+        padding:20px;    
         }
 
     .container {
@@ -252,75 +259,80 @@ footer {
             width: 100%;
             height: 180px;
         }
+
     h3 {
             font-size: 95%;
         }
+
     tr td p {
-            font-size: 80%;
-            width:100%;
-            padding:0;
-            margin:0;
-            /*margin-left:-5px;*/
-            }
+        font-size: 80%;
+        width:100%;
+        padding:0;
+        margin:0;
+        /*margin-left:-5px;*/
+        }
     
     .cta {
-            font-size: 80%;
-             }
+        font-size: 80%;
+        }
 
     .footer-info{
         width:90vw;
-    }
+        }
 }
 /* assignment request*/
  @media only screen and  (max-width: 800px) {
     main {
         width: 100%;
         padding: 0;
-    }
+        }
+        
     header {
         max-width: none;
         width: 100%;
-    }
+        }
     
     h1 {
-            font-size: 100%;
+        font-size: 100%;
         }
 
     .container {
-            width: 100%;
+        width: 100%;
        }
 
     h2 {
         width: 100%;
         /*padding: 10px 10px 10px 30px;*/
         font-size: 80%;
-            }
+        }
 
     .lead {
         width: 88vw;
         margin:0;
        /*padding: 10px 40px 10px 40px;*/
         }
+
     h3 {
-            font-size: 80%;
+        font-size: 80%;
         }
+
     p {
         font-size: 80%;
-    }
+        }
     /*h2,h3, p {
             font-size: 80%;
         }*/
 
     .exp {
-            font-size: 80%;
+        font-size: 80%;
         }
 
     .top-logo img{
-            width: auto;
+        width: auto;
         }
 
-        .cover  {
-            width: 100%; 
+    .cover  {
+        width: 100%; 
         }
 
     .cover img { 
@@ -329,7 +341,7 @@ footer {
         }
 
     .exp {
-         padding: 40px;
+        padding: 40px;
         } 
 
 
@@ -338,6 +350,7 @@ footer {
         margin-right:auto;
         padding: 0 0;    
         }
+
     #tour-img img{
         width: 100%;
         height: 150px;
@@ -355,8 +368,139 @@ footer {
     footer {
         width: auto;
         }
+
     .footer-menu {
-            font-size: 80%;
+        font-size: 80%;
+        }
+}
+/* new media query*/
+@media only screen and (max-width: 550px) {
+    body{
+        width: 100%;
+        }
+        
+    main {
+        width: 100%;
+        padding: 0;
+        }
+    
+    h2 {
+    /* width: 100%;
+       padding: 10px 10px 10px 30px; fix media querie */
+       width: 80vw;
+       padding: 10px -40px 10px 30px;
+       text-indent: 30px;       
+    }
+
+    .lead {
+        width: 80vw;
+        margin:0;
+        padding: 10px 20px 10px 30px;
+        }
+
+    .exp {
+        /*padding: 40px; fix media querie */
+        padding:20px;    
+    }
+
+    .container {
+        width: 100%; 
+        }
+    
+    #tour-img img{
+        width: 100%;
+        height: 130px;
+        }
+
+    h3 {
+        font-size: 95%;
+        }
+
+    tr td p {
+        font-size: 80%;
+        width:100%;
+        padding:0;
+        margin:0;
+        /*margin-left:-5px;*/
+        }
+    
+    .cta {
+        font-size: 80%;
+        }
+
+    .footer-info{
+        width:90vw;
+        }
+}
+
+@media only screen and (max-width: 415px) {
+    body{
+        width: 100%;
+        }
+        
+    main {
+        width: 100%;
+        padding: 0;
+        }
+    
+    h2 {
+    /* width: 100%;
+       padding: 10px 10px 10px 30px; fix media querie */
+       width: 70vw;
+       padding: 10px -40px 10px 30px;
+       text-indent: 30px;       
+        }
+    .top-logo img{
+        width:10vw;
+        }
+    .lead {
+        width: 80vw;
+        margin:0;
+        padding: 10px 20px 10px 30px;
+        }
+
+    .exp {
+        /*padding: 40px; fix media querie */
+        padding:20px;    
+    }
+
+    .container {
+        width: 100%; 
+        }
+    
+    #tour-img img{
+        width: 100%;
+        height: 100px;
+        }
+
+    h3 {
+        font-size: 80%;
+        }
+
+    tr td p {
+        font-size: 70%;
+        width:100%;
+        padding:0;
+        margin:0;
+        /*margin-left:-5px;*/
+        }
+    
+    .cta {
+        font-size: 70%;
+        }
+
+    .footer-info{
+        width:30vw;
+        font-size: 70%;
+        }
+
+    .footer-menu{
+        font-size: 70%;
+       }
+
+    .footer-menu a {
+        margin-left: 10px;
+        margin-right: 0;
         }
 }
 /*
