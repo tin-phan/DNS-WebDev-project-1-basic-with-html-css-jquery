@@ -1,8 +1,6 @@
-<<<<<<< HEAD
-=======
 * {
     margin: 0 auto;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Tahoma, sans-serif;
 }
 
 body {
@@ -29,7 +27,13 @@ h1 {
     color: #fff;
     align-items: center;
 }
-
+/*new edit buger*/
+.hamburger img{
+    position: absolute;
+    left: 0px;
+    bottom: -17.5px;
+    height: 35px;
+}
 header .drop{
     position: absolute;
 	left: 30px;
@@ -421,4 +425,3 @@ table tr th td {
         font-size: 80%;
     }
 }*/
->>>>>>> cb2dccb7005c13f8e5481aa34185aa88ea5e9ba4
