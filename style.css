@@ -13,7 +13,7 @@ header {
     align-items: center;
     background-color: #2457cf;
     height: 50px; 
-    Position: relative; 
+    position: relative; /*fix uppercase Position-->position*/
 }
 
 header{
@@ -28,7 +28,7 @@ h1 {
     align-items: center;
 }
 /*new edit buger*/
-.hamburger img{
+.hamburger img {
     position: absolute;
     left: 0px;
     bottom: -17.5px;
