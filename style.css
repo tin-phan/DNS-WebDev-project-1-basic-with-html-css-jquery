@@ -13,11 +13,11 @@ header {
     align-items: center;
     background-color: #2457cf;
     height: 50px; 
-    Position: relative; 
+    position: relative; /*fix sensitive case Position-->position*/
 }
 
 header{
-   box-shadow: 0 3px 5px #2c2b2b;
+    box-shadow: 0 3px 5px #2c2b2b;
 }
 
 h1 {
@@ -28,7 +28,7 @@ h1 {
     align-items: center;
 }
 /*new edit buger*/
-.hamburger img{
+.hamburger img {
     position: absolute;
     left: 0px;
     bottom: -17.5px;
@@ -256,12 +256,12 @@ footer {
         }
     
     #tour-img img{
-            width: 100%;
-            height: 180px;
+        width: 100%;
+        height: 180px;
         }
 
     h3 {
-            font-size: 95%;
+        font-size: 95%;
         }
 
     tr td p {
